@@ -1,0 +1,23 @@
+@mixin grid ($gridRow, $fraction, $gridColumn, $Fraction, $gap) {
+    display: grid;
+    grid-template-rows: repeat($gridRow, $fraction);
+    grid-template-columns: repeat($gridColumn, $Fraction);
+    gap: $gap;
+}
+
+@mixin font-face ($font-family, $font-dinamic-path, $font-static-path, $font-weight, $font-style: normal) {
+    @font-face {
+        font-family: $font-family;
+        src: url($font-dinamic-path);
+        font-weight: $font-weight;
+        font-style: $font-style;
+    }
+
+    @font-face {
+        font-family: #{$font-family};
+        src: url($font-static-path);
+        font-weight: $font-weight;
+        font-style: $font-style;
+    }
+}
+

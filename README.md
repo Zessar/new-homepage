@@ -1,94 +1,74 @@
-# Frontend Mentor - News homepage
+# Frontend Mentor - News-HomePage
 
-![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
+Los usuarios deberían poder:
 
-## Welcome! 👋
+- Ver el diseño óptimo para la interfaz según el tamaño de pantalla de su dispositivo
+- Ver estados de desplazamiento y enfoque para todos los elementos interactivos en la página.
 
-Thanks for checking out this front-end coding challenge.
+### Captura de pantalla
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+![](capturas/Captura%20de%20pantalla%202023-10-26%20175851.png)
+![](capturas/Captura%20de%20pantalla%202023-10-26%20175856.png)
+![](capturas/Captura%20de%20pantalla%202023-10-26%20175902.png)
+![](capturas/Captura%20de%20pantalla%202023-10-26%20175917.png)
+![](capturas/Captura%20de%20pantalla%202023-10-26%20175945.png)
 
-**To do this challenge, you need a good understanding of HTML and CSS, and basic JavaScript.**
 
-## The challenge
+### Links
 
-Your challenge is to build out this news website homepage and get it looking as close to the design as possible.
+- Solution URL: [Añado la URL de la solucion](https://github.com/Zessar/new-homepage)
+- Live Site URL: [Add live site URL here](https://zessar.github.io/new-homepage/)
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## Mi proceso
 
-Your users should be able to:
+### Construido con
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- Marcado semántico HTML5
+- Propiedades personalizadas de SCSS
+- JavaScript controladores del DOM
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Que aprendi
+Sigo con los problemas o la paranoia, de que el SASS se me va de las manos. En esructura, creo que esta bastante bien, he de decir, que no he mirado la accesibilidad de lo roles y quizas la semantica podria ser mejor, con JS nada cosa de niños.
 
-## Where to find everything
+### HTML
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Sin mucho que añadir, vigilar la semantica, exponer los roles para la accesibilidad y poco mas.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### CSS
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+SASS, bueno, se que se podra hacer mejor, con menos codigo, unos mixin mejores, poco a poco.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+### JavaScript
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+Sin nada que añadir, ha sido muy facil este control de eventos.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### Desarrollo continuo
 
-## Building your project
+Voy a realizar REEACT, y el proximo proyecto intentare implementarlo.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### Recursos utiles
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+- Hecho completo por mi, he tenido que mirar sobre el Font-Face de archivos dinamicos (en realidad no se si esta funcionando).
 
-## Deploying your project
+## Autor
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+- Git Hub - [zessar](https://github.com/Zessar)
+- Frontend Mentor - [@Zessar](https://www.frontendmentor.io/profile/Zessar)
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
-## Create a custom `README.md`
+## Agradeciminetos
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+A todas la comunidad de Stack Owerflow, a Code Academy y bueno algun Youtuber que tambien son unos referentes para mi (ya sean buenos de verdad o no, sus trucos o formas de explicar me han venido genial, para por lo menos poder leer codigo y poder picotear algunas lineas):
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+ - Eduardo Fierro (me gusta muchisimo como explica, sus graficos y tablas, tiene que ser un artista como profesor)
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+ - AlexCG Design (Muy joven pero se nota que le apasiona esto, y tambien es my extenso en sus explicaciones, si quieres aprenderte la MDN entera, mira sus videos y cursos)
 
-## Submitting your solution
+ - Dorian Desing (si esta mal escrito y por que no le dejaba crearse el perfil con "design", tambien es y bueno, directo y te enseña lo que necesitas para empezar y si atiendes... puedes hacer cosas muy buenas)
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+ - MiduDev (todo un maestro me parto con sus videos)
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+ - Y a mi mismo tambien me lo agradezco, por esforzarme, por la constancia, por la aptitud, por la actitud y sobre todo por no rendirme al ver las cosas dificiles y mirarte al espejo pensando que no estoy hecho para esto... Pero... seguire y seguire y llorare y picare y picare y me cabreare... y seguire...y picare y por supuesto lo conseguire.
 
-## Sharing your solution
 
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
